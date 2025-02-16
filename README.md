@@ -4,7 +4,7 @@ A script to download the calibration constants from the 3458A multimeter via GPI
 Install Python and PyVISA, then your choice of Keysight IO Libraries Suite (if using a HPAK USP-GPIB adapter) or National Instruments NI-488.2 software if using an NI GPIB-USB-HS, or whatever respective drivers you need for your GPIB adapter.
 
 It will automatically find and communicate with your 3457A to allow you to read out the calibration constants. </br>
-Operation is self explanatory. The readout oprions are as follows: </br>
+Operation is self explanatory. The readout options are as follows: </br>
 0: Initial (nominal) values - These are the values for a blank uncalibrated instrument. </br>
 1: Actual Values - These are the specific calibration values for your instrument. </br>
 3: Upper Limit - The upper allowable limit, if your instrument exceeds these, you have a problem.. </br>
