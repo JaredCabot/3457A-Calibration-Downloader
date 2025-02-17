@@ -81,7 +81,7 @@ while cal_item not in {"0", "1", "3", "5"}:
 
 print("\nstart\n")
 
-for const_id in range(1,253):
+for const_id in range(1,254):
     cal_out = inst.query(f"CAL? {const_id},{cal_item}").strip()
     print (f"{cal_out}")
     continue
