@@ -1,4 +1,4 @@
-# 3457A-Calibration-Downloader
+# 3458A-Calibration-Downloader
 A script to download the calibration constants from the 3458A multimeter via GPIB
 
 Install Python and PyVISA, then your choice of Keysight IO Libraries Suite (if using a HPAK USP-GPIB adapter) or National Instruments NI-488.2 software if using an NI GPIB-USB-HS, or whatever respective drivers you need for your GPIB adapter.
